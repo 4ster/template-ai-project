@@ -19,6 +19,9 @@ Thumbs.db
 *.sublime-project
 *.sublime-workspace
 
+# Claude Code
+.claude/settings.local.json
+
 # Environment variables
 .env
 .env.local
@@ -68,11 +71,15 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 .yarn/
+*.bun.lockb
+.turbo/
+.next/
+.nuxt/
+.output/
 
 # PHP
 /vendor/
 composer.phar
-composer.lock
 .phpunit.result.cache
 
 # Logs
@@ -88,6 +95,8 @@ log/
 # Cache
 .cache/
 *.cache
+.eslintcache
+.prettiercache
 
 # Temporary files
 tmp/
@@ -99,6 +108,10 @@ temp/
 *.a
 *.exe
 *.out
+
+# Test coverage
+coverage/
+.nyc_output/
 
 # Docker
 docker-compose.override.yml
