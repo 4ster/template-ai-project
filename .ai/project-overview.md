@@ -37,6 +37,12 @@
 ## Code Conventions
 См. полные соглашения: [conventions.md](conventions.md)
 
+## UI/UX
+См. спецификацию UI/UX: [ui-ux-spec.md](ui-ux-spec.md)
+
+## User Stories
+См. пользовательские истории: [user-stories.md](user-stories.md)
+
 ## Common Tasks
 См. типичные задачи: [common-tasks.md](common-tasks.md)
 

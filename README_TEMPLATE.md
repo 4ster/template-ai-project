@@ -13,6 +13,9 @@
 > - Технологии: [.ai/tech-stack.md](.ai/tech-stack.md)
 > - Архитектура: [.ai/architecture.md](.ai/architecture.md)
 > - Соглашения: [.ai/conventions.md](.ai/conventions.md)
+> - UI/UX: [.ai/ui-ux-spec.md](.ai/ui-ux-spec.md)
+> - User Stories: [.ai/user-stories.md](.ai/user-stories.md)
+> - Частые задачи: [.ai/common-tasks.md](.ai/common-tasks.md)
 
 ## Tech Stack
 
@@ -91,16 +94,21 @@ project/
 │   ├── tech-stack.md           # Технологический стек
 │   ├── conventions.md          # Соглашения по коду и стилю
 │   ├── common-tasks.md         # Частые команды разработки
+│   ├── ui-ux-spec.md           # Спецификация UI/UX дизайна
+│   ├── user-stories.md         # Пользовательские истории
 │   └── prompts/                # Готовые промпты для AI
 │       ├── debugging.md        # Промпт для отладки
 │       ├── documentation.md    # Промпт для документации
 │       └── refactoring.md      # Промпт для рефакторинга
+├── .claude/                    # Конфигурация Claude Code
 ├── docs/                       # Документация проекта
 │   └── product.md              # Продуктовая информация
 ├── [src/app/etc]/              # Исходный код (твоя структура)
 ├── tests/                      # Тесты
 ├── .editorconfig               # Настройки редактора
 ├── .gitignore                  # Исключения для Git
+├── AGENTS.md                   # Инструкции для AI-агентов (Copilot, Cursor и др.)
+├── CLAUDE.md                   # Инструкции для Claude Code
 ├── CONTRIBUTING.md             # Гайд для контрибьюторов
 ├── backlog.md                  # Задачи и планы развития
 └── README.md                   # Этот файл
